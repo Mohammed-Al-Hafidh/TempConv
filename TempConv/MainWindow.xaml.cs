@@ -100,34 +100,10 @@ namespace TempConv
                
         }
 
-        private void inputCelcius_Checked(object sender, RoutedEventArgs e)
+        private void rdbtChecked(object sender, RoutedEventArgs e)
         {
             textValidateandcalculate();
         }
-
-        private void inputFarenheit_Checked(object sender, RoutedEventArgs e)
-        {
-            textValidateandcalculate();
-        }
-
-        private void inputKelvin_Checked(object sender, RoutedEventArgs e)
-        {
-            textValidateandcalculate();
-        }
-
-        private void outputCelcius_Checked(object sender, RoutedEventArgs e)
-        {
-            textValidateandcalculate();
-        }
-
-        private void outputFarenheit_Checked(object sender, RoutedEventArgs e)
-        {
-            textValidateandcalculate();
-        }
-
-        private void outputKelvin_Checked(object sender, RoutedEventArgs e)
-        {
-            textValidateandcalculate();
-        }
+       
     }
 }

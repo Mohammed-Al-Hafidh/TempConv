@@ -12,12 +12,12 @@
         <Label Content="Input Scale" HorizontalAlignment="Left" Margin="94,58,0,0" VerticalAlignment="Top"/>
         <Label Content="Output Scale
                " HorizontalAlignment="Left" Margin="436,58,0,0" VerticalAlignment="Top"/>
-        <RadioButton GroupName="input" Name="inputCelcius" Content="Celcius" HorizontalAlignment="Left" Margin="78,107,0,0" VerticalAlignment="Top" Checked="inputCelcius_Checked"/>
-        <RadioButton GroupName="input" Name="inputFarenheit" Content="Farenheit" HorizontalAlignment="Left" Margin="78,145,0,0" VerticalAlignment="Top" Checked="inputFarenheit_Checked"/>
-        <RadioButton GroupName="input" Name="inputKelvin" Content="Kelvin" HorizontalAlignment="Left" Margin="78,176,0,0" VerticalAlignment="Top" Checked="inputKelvin_Checked"/>
-        <RadioButton GroupName="output" Name="outputCelcius" Content="Celcius" HorizontalAlignment="Left" Margin="436,107,0,0" VerticalAlignment="Top" Checked="outputCelcius_Checked"/>
-        <RadioButton GroupName="output" Name="outputFarenheit" Content="Farenheit" HorizontalAlignment="Left" Margin="436,145,0,0" VerticalAlignment="Top" Checked="outputFarenheit_Checked"/>
-        <RadioButton GroupName="output" Name="outputKelvin" Content="Kelvin" HorizontalAlignment="Left" Margin="436,176,0,0" VerticalAlignment="Top" Checked="outputKelvin_Checked"/>
+        <RadioButton IsChecked="True" GroupName="input" Name="inputCelcius" Content="Celcius" HorizontalAlignment="Left" Margin="78,107,0,0" VerticalAlignment="Top" Checked="rdbtChecked"/>
+        <RadioButton GroupName="input" Name="inputFarenheit" Content="Farenheit" HorizontalAlignment="Left" Margin="78,145,0,0" VerticalAlignment="Top" Checked="rdbtChecked"/>
+        <RadioButton GroupName="input" Name="inputKelvin" Content="Kelvin" HorizontalAlignment="Left" Margin="78,176,0,0" VerticalAlignment="Top" Checked="rdbtChecked"/>
+        <RadioButton IsChecked="True" GroupName="output" Name="outputCelcius" Content="Celcius" HorizontalAlignment="Left" Margin="436,107,0,0" VerticalAlignment="Top" Checked="rdbtChecked"/>
+        <RadioButton GroupName="output" Name="outputFarenheit" Content="Farenheit" HorizontalAlignment="Left" Margin="436,145,0,0" VerticalAlignment="Top" Checked="rdbtChecked"/>
+        <RadioButton GroupName="output" Name="outputKelvin" Content="Kelvin" HorizontalAlignment="Left" Margin="436,176,0,0" VerticalAlignment="Top" Checked="rdbtChecked"/>
         <Label Content="Output" HorizontalAlignment="Left" Margin="213,203,0,0" VerticalAlignment="Top"/>
         <Label Name="result" Content="outputtemp" HorizontalAlignment="Left" Margin="264,203,0,0" VerticalAlignment="Top" Width="120"/>
 
